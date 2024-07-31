@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Standing Desks</title>
+    <title>Home Page</title>
 
     <!-- css link -->
     <link rel="stylesheet" href="style.css">
@@ -15,9 +15,9 @@
             <p>ProLift Inc.</p>
           </div>
           <ul class="navtag">
-            <div class="cross">
-              <img src="assets/img/x.svg" alt="cross">
-            </div>
+              <li class="cross">
+                <img src="assets/img/x.svg" alt="cross" >
+              </li>
             <li><a href="#index.html" id="current">Home</a></li>
             <li class="dropdown"><a href="html/RisingDesks.html">Rising Desks</a>
               <ul class="dropdown-content">
@@ -29,12 +29,14 @@
             <li><a href="html/HealthBenefits.html">Health Benefits</a></li>
             <li><a href="html/Basket.html">Basket</a></li>
           </ul>
-          <div class="searchBox">
-            <input class="searchInput" type="text" name="" placeholder="Search" />
-            <button class="searchButton" href="#" type="submit">
+  
+          <form class="searchBox">
+            <input class="searchInput" type="text" placeholder="Search..." >
+            <button class="searchButton" type="submit">
               <img src="assets/img/search.svg" alt="search">
             </button>
-          </div>
+          </form>
+
 
           <div class="menubar">
             <img src="assets/img/menu.svg" alt="menu">
@@ -67,11 +69,9 @@
             </a>
           </div>             
         </div>
-        <img
-          src="assets/img/sdccover.jpg"
-        />
+        <img src="assets/img/sdccover.jpg" alt="Cover Photo" >
       </div>
-      <!-- -------cover photo ends------- -->
+      <!-- cover photo ends -->
 
       <!-- special offers starts -->
        <div class="offertxt" id="offer">
@@ -188,15 +188,15 @@
               <p>&copy; 2012 ProLift Desks. All rights reserved.</p>
             </div>
             <div class="reportbox">
-              <form action="">
+              <form action="mailto:psone9921@gmail.com">
                 <input type="text" placeholder="Send a report..." required>
                 <input type="submit" value="Submit">
               </form>
             </div>
           </div>
        </footer>
-    
+       <script src="js/home.js"></script>
+       <script src="js/script.js"></script>
 </body>
-<script src="js/home.js"></script>
-<script src="js/script.js"></script>
+
 </html>
