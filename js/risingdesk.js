@@ -1,6 +1,6 @@
 let index = 0;
 let count   = document.getElementById('count');
-let shop = document.getElementById('btnshop');
+let shop = document.querySelectorAll('.btnshop');
 
 const cartappear = () => {
     const cart = document.getElementsByClassName('cart')[0];
@@ -17,4 +17,6 @@ const shopincrement = () => {
 };
 
 window.addEventListener('scroll', cartappear);
-shop.addEventListener('click', shopincrement);
+shop.forEach(button => {
+    button.addEventListener('click', shopincrement);
+});
