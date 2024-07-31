@@ -440,6 +440,75 @@ header {
   color: rgb(30, 30, 134);
 }
 
+.demo-health{
+  color: aliceblue;
+  width: 30%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: black;
+  opacity: .7;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.demo-health h1{
+  text-align: center;
+}
+
+.demo-health ul li{
+  font-size: 1.2rem;
+  margin: 10px auto;
+}
+
+.demo-health ul{
+  /* margin-left: 10%; */
+  color: aliceblue;
+}
+
+.demo-health ul:hover{
+  color: skyblue;
+}
+
+.demo-health ul:active{
+  color: rgb(82, 125, 143);
+}
+
+@media screen and (max-width:1350px) {
+  .demo-health{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width:1080px) {
+  .demo-health{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:866px) {
+  .demo-health{
+    width: 60%;
+  }
+
+  .demo-health ul li{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width:560px) {
+  .demo-health{
+    width: 70%;
+  }
+}
+
+@media screen and (max-width:475px) {
+  .demo-health{
+    width: 90%;
+  }
+}
+
 /* --------nav responsive------------ */
 
 @media screen and (max-width: 1200px) {
